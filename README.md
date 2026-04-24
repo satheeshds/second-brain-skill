@@ -28,8 +28,8 @@
 # 克隆仓库
 git clone https://github.com/ChavesLiu/second-brain-skill.git
 
-# 将 skill 复制到 Claude Code 全局目录
-cp -r second-brain-skill/skills/wiki ~/.claude/skills/wiki
+# 按语言复制 skill（en 英文 / zh 中文）
+cp -r second-brain-skill/skills/wiki/zh ~/.claude/skills/wiki
 
 # 安装依赖
 pip install -r ~/.claude/skills/wiki/scripts/requirements.txt
@@ -143,8 +143,8 @@ LLM 自动阅读素材、创建摘要页、拆分实体和概念页、维护交�
 ## 文档
 
 - **[使用手册](docs/user-guide.md)** — 完整的安装配置、功能详解、Obsidian 集成、OpenClaw 接入
-- **[设计理念](skills/wiki/IDEA.md)** — Karpathy LLM Wiki 的原始构想
-- **[Skill 技术文档](skills/wiki/README.md)** — 页面规范、工作流详解、目录结构
+- **[设计理念](skills/wiki/zh/IDEA.md)** — Karpathy LLM Wiki 的原始构想
+- **[Skill 技术文档](skills/wiki/zh/README.md)** — 页面规范、工作流详解、目录结构
 
 ## 致谢
 

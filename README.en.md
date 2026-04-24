@@ -28,8 +28,8 @@ You curate materials and ask good questions; the LLM handles all the heavy lifti
 # Clone the repo
 git clone https://github.com/ChavesLiu/second-brain-skill.git
 
-# Copy the skill to Claude Code's global directory
-cp -r second-brain-skill/skills/wiki ~/.claude/skills/wiki
+# Copy the skill for your preferred language (en or zh)
+cp -r second-brain-skill/skills/wiki/en ~/.claude/skills/wiki
 
 # Install dependencies
 pip install -r ~/.claude/skills/wiki/scripts/requirements.txt
@@ -143,8 +143,8 @@ See [User Guide — OpenClaw Integration](docs/user-guide.en.md#openclaw-integra
 ## Documentation
 
 - **[User Guide](docs/user-guide.en.md)** — Full installation, feature guide, Obsidian integration, OpenClaw setup
-- **[Design Philosophy](skills/wiki/IDEA.md)** — Karpathy's original LLM Wiki vision
-- **[Skill Technical Docs](skills/wiki/README.en.md)** — Page specs, workflow details, directory structure
+- **[Design Philosophy](skills/wiki/en/IDEA.md)** — Karpathy's original LLM Wiki vision
+- **[Skill Technical Docs](skills/wiki/en/README.md)** — Page specs, workflow details, directory structure
 
 ## Acknowledgments
 
