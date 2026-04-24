@@ -26,7 +26,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/ChavesLiu/second-brain-skill.git
+git clone https://github.com/satheeshds/second-brain-skill.git
 
 # 按语言复制 skill（en 英文 / zh 中文）
 cp -r second-brain-skill/skills/wiki/zh ~/.claude/skills/wiki
