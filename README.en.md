@@ -29,7 +29,7 @@ You curate materials and ask good questions; the LLM handles all the heavy lifti
 git clone https://github.com/satheeshds/second-brain-skill.git
 
 # Copy the skill for your preferred language (en or zh)
-cp -r second-brain-skill/skills/wiki/en ~/.claude/skills/wiki
+cp -r second-brain-skill/skills/wiki/en/. ~/.claude/skills/wiki
 
 # Install dependencies
 pip install -r ~/.claude/skills/wiki/scripts/requirements.txt
